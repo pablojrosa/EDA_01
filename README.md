@@ -1,9 +1,25 @@
-En esta oportunidad trabajé sobre un DataSet de propiedades publicadas en la web de la startup PROPERATI.
+[Properati](https://www.properati.com.ar/) is a famous website in Argentina where you can find houses or apartments to rent or sell.
 
-El objetivo fue hacer un completo análisis de los datos, evaluar sus categorías mas relevantes, transformar features relevantes, trabajar con outliers, evaluar distribuciones, etc.
+The goal of this notebook is to dive into data in order to find some missing and NULL values, inconsistencies, outliers and duplicated registers as a result of univariate and bivariate analysis about the features mentioned.
 
-Tambien desarrolle un target a predecir a que tipo de barrio pertenece una propiedad en funcion de algunas features.
+**What you are going to fin in this notebook?**
 
-El modelo utilizado fue KNN por su simpleza y fácil aplicación. Al final están sus metricas correspondientes y una predicción.
+*Part 1: Data QA*
 
-Espero que les guste.
+* Generals about Data set. (shape, column names and info about data type)
+* Information about null values and missing data.
+* Information about outliers.
+* Inconsistences.
+* Conclusions and strategies about Data QA.
+
+*Part 2: Reporting*
+
+* Finding any relations or trends considering multiple features.
+* Analize the most valuated house.
+
+*Part 3: Machine Learning model*
+
+* Develop a clasification model
+* Conlusions about modeling
+
+Hope that this notebook helps you!
